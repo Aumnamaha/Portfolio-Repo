@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A. Developer | Portfolio</title>
+    <meta name="description" content="Personal portfolio showcasing cutting-edge web and desktop applications.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-grid"></div>
+
+    <nav class="navbar">
+        <div class="logo">Aum Namaha <span class="blink">_</span></div>
+        <div class="nav-links">
+            <a href="#about">> About</a>
+            <a href="#projects">> Projects</a>
+            <a href="resume.pdf" target="_blank">> Resume</a>
+            <a href="#contact">> Contact</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero-section" id="about">
+            <div class="status-badge">
+                <span class="pulse-dot"></span>
+                <span class="status-text">Status: Building & Ideating</span>
+            </div>
+            
+            <div class="hero-content">
+                <h1 class="hero-title">Hello. I am a<br><span class="typewriter lime-text" id="typewriter"></span><span class="cursor">|</span></h1>
+                <p class="hero-subtitle">I engineer robust backend architectures and design immersive, deeply interactive experiences.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="primary-btn">Explore Work</a>
+                    <a href="resume.pdf" target="_blank" class="secondary-btn">Resume</a>
+                    <a href="https://github.com/Aumnamaha" target="_blank" class="secondary-btn">GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Grid -->
+        <section class="projects-section" id="projects">
+            <div class="section-header reveal">
+                <p class="mono-label lime-text">// 01. Portfolio</p>
+                <h2 class="section-title">Selected Works.</h2>
+            </div>
+            
+            <div class="grid">
+                <!-- Project 1 -->
+                <article class="project-card reveal">
+                    <div class="card-content">
+                        <div class="card-top">
+                            <span class="folder-icon">📁</span>
+                            <div class="links">
+                                <a href="#" class="icon-link">↗</a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Smart Library System</h3>
+                        <p class="project-desc">A full-stack role-based library management platform featuring secure authentication, inventory handling, and dynamic issue/return workflows.</p>
+                        <ul class="tech-stack">
+                            <li>FastAPI</li>
+                            <li>SQLite</li>
+                            <li>Vanilla JS</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card reveal">
+                    <div class="card-content">
+                        <div class="card-top">
+                            <span class="folder-icon">📁</span>
+                            <div class="links">
+                                <a href="#" class="icon-link">↗</a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Live Weather Tracker</h3>
+                        <p class="project-desc">A globally accessible real-time weather application leveraging Open-Meteo APIs, avoiding payload restrictions dynamically.</p>
+                        <ul class="tech-stack">
+                            <li>Open-Meteo</li>
+                            <li>HTML/CSS</li>
+                            <li>JS</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card reveal">
+                    <div class="card-content">
+                        <div class="card-top">
+                            <span class="folder-icon">📁</span>
+                            <div class="links">
+                                <a href="#" class="icon-link">↗</a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Expense Tracker Pro</h3>
+                        <p class="project-desc">A visually stunning dashboard tracking daily financial expenses, visualizing complex spending datasets utilizing Chart.js.</p>
+                        <ul class="tech-stack">
+                            <li>Chart.js</li>
+                            <li>LocalStorage</li>
+                            <li>JS</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card reveal">
+                    <div class="card-content">
+                        <div class="card-top">
+                            <span class="folder-icon">📁</span>
+                            <div class="links">
+                                <a href="#" class="icon-link">↗</a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Image Utility Suite</h3>
+                        <p class="project-desc">A desktop GUI engineered for batch image operations, generating grayscale maps, edge bounds, and watermarks instantly.</p>
+                        <ul class="tech-stack">
+                            <li>Python</li>
+                            <li>OpenCV</li>
+                            <li>Tkinter</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 5 -->
+                <article class="project-card reveal">
+                    <div class="card-content">
+                        <div class="card-top">
+                            <span class="folder-icon">📁</span>
+                            <div class="links">
+                                <a href="#" class="icon-link">↗</a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Real-Time CommNet</h3>
+                        <p class="project-desc">An instant messaging lobby architecture connecting users globally over persistent WebSockets inside public channels.</p>
+                        <ul class="tech-stack">
+                            <li>Node.js</li>
+                            <li>Socket.io</li>
+                            <li>Express</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 6 -->
+                <article class="project-card reveal">
+                    <div class="card-content">
+                        <div class="card-top">
+                            <span class="folder-icon">📁</span>
+                            <div class="links">
+                                <a href="#" class="icon-link">↗</a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Speech_X_Text</h3>
+                        <p class="project-desc">A multilingual Speech-to-Text application powered by an agile backend seamlessly processing audio transcriptions.</p>
+                        <ul class="tech-stack">
+                            <li>Python</li>
+                            <li>FastAPI</li>
+                            <li>Vercel</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 7 -->
+                <article class="project-card reveal">
+                    <div class="card-content">
+                        <div class="card-top">
+                            <span class="folder-icon">📁</span>
+                            <div class="links">
+                                <a href="#" class="icon-link">↗</a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Tim The Time Manager</h3>
+                        <p class="project-desc">A lightweight, highly contextual browser extension utilized to inject dynamic time tracking metrics directly into the DOM.</p>
+                        <ul class="tech-stack">
+                            <li>DOM API</li>
+                            <li>Chrome Ext</li>
+                            <li>JS</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="show-more-container reveal">
+                <a href="https://github.com/Aumnamaha" target="_blank" class="primary-btn outline">View Full Archive</a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section reveal" id="contact">
+            <p class="mono-label lime-text">// 02. What's Next?</p>
+            <h2 class="section-title">Get In Touch.</h2>
+            <p class="contact-desc">My networks are always open. Whether you have a question or just want to collaborate, I'll try my best to get back to you!</p>
+            <a href="mailto:hello@example.com" class="primary-btn block-btn">Say Hello</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built with <span class="lime-text">Vanilla UI</span> &middot; &copy; <span id="year"></span></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
