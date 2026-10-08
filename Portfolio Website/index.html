@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A. Developer | Portfolio</title>
-    <meta name="description" content="Personal portfolio showcasing cutting-edge web and desktop applications.">
+    <title>Aum Namaha | Portfolio</title>
+    <meta name="description" content="Personal portfolio showcasing cutting-edge AI/ML, local LLM engines, mobile applications, and web platforms.">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -31,7 +31,7 @@
             
             <div class="hero-content">
                 <h1 class="hero-title">Hello. I am a<br><span class="typewriter lime-text" id="typewriter"></span><span class="cursor">|</span></h1>
-                <p class="hero-subtitle">I engineer robust backend architectures and design immersive, deeply interactive experiences.</p>
+                <p class="hero-subtitle">I engineer robust backend architectures, on-device AI pipelines, and design immersive, deeply interactive experiences.</p>
                 <div class="hero-actions">
                     <a href="#projects" class="primary-btn">Explore Work</a>
                     <a href="resume.pdf" target="_blank" class="secondary-btn">Resume</a>
@@ -48,116 +48,179 @@
             </div>
             
             <div class="grid">
-                <!-- Project 1 -->
+                <!-- Project 1: A11-LLM-optimizer -->
                 <article class="project-card reveal">
                     <div class="card-content">
                         <div class="card-top">
                             <span class="folder-icon">📁</span>
                             <div class="links">
-                                <a href="#" class="icon-link">↗</a>
+                                <a href="https://github.com/Aumnamaha/A11-LLM-optimizer" target="_blank" class="icon-link">↗</a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">A11-LLM-Optimizer</h3>
+                        <p class="project-desc">Ultra-low hardware MoE engine running 100B+ models on consumer GPUs using dynamic quantization, NVMe memory-mapping, and zero-copy DMA streaming.</p>
+                        <ul class="tech-stack">
+                            <li>Python</li>
+                            <li>PyTorch</li>
+                            <li>CUDA</li>
+                            <li>mmap</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 2: Student_Feedback_portal -->
+                <article class="project-card reveal">
+                    <div class="card-content">
+                        <div class="card-top">
+                            <span class="folder-icon">📁</span>
+                            <div class="links">
+                                <a href="https://github.com/Aumnamaha/Student_Feedback_portal" target="_blank" class="icon-link">↗</a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Student Feedback Portal</h3>
+                        <p class="project-desc">Full-stack academic feedback portal with RBAC, automated status escalation, countdown timers, and threaded faculty discussions.</p>
+                        <ul class="tech-stack">
+                            <li>Flask</li>
+                            <li>SQLAlchemy</li>
+                            <li>MySQL</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 3: SentryMind -->
+                <article class="project-card reveal">
+                    <div class="card-content">
+                        <div class="card-top">
+                            <span class="folder-icon">📁</span>
+                            <div class="links">
+                                <a href="https://github.com/Aumnamaha/SentryMind" target="_blank" class="icon-link">↗</a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">SentryMind</h3>
+                        <p class="project-desc">Hackathon threat-detection platform yielding sub-100ms inference times across concurrent multi-stream video feeds with event-driven alerts.</p>
+                        <ul class="tech-stack">
+                            <li>Python</li>
+                            <li>Computer Vision</li>
+                            <li>AI Analytics</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 4: FedTrustChain -->
+                <article class="project-card reveal">
+                    <div class="card-content">
+                        <div class="card-top">
+                            <span class="folder-icon">📁</span>
+                            <div class="links">
+                                <a href="https://github.com/Aumnamaha/FedTrustChain" target="_blank" class="icon-link">↗</a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">FedTrustChain</h3>
+                        <p class="project-desc">Capstone project uniting Federated Learning with distributed ledgers and zero-knowledge verification for 99.2% consensus stability.</p>
+                        <ul class="tech-stack">
+                            <li>Python</li>
+                            <li>Federated Learning</li>
+                            <li>Blockchain</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 5: Vaani -->
+                <article class="project-card reveal">
+                    <div class="card-content">
+                        <div class="card-top">
+                            <span class="folder-icon">📁</span>
+                            <div class="links">
+                                <a href="https://github.com/Aumnamaha/Vaani" target="_blank" class="icon-link">↗</a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Vaani</h3>
+                        <p class="project-desc">Fully offline voice-to-structured-data mobile app running on-device Whisper & Qwen2.5 models with local SQLite and zero-cloud Network Guard.</p>
+                        <ul class="tech-stack">
+                            <li>React Native</li>
+                            <li>whisper.rn</li>
+                            <li>llama.rn</li>
+                            <li>SQLite</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 6: Smart_Library -->
+                <article class="project-card reveal">
+                    <div class="card-content">
+                        <div class="card-top">
+                            <span class="folder-icon">📁</span>
+                            <div class="links">
+                                <a href="https://github.com/Aumnamaha/Smart_Library" target="_blank" class="icon-link">↗</a>
                             </div>
                         </div>
                         <h3 class="project-title">Smart Library System</h3>
-                        <p class="project-desc">A full-stack role-based library management platform featuring secure authentication, inventory handling, and dynamic issue/return workflows.</p>
+                        <p class="project-desc">Voice-powered intelligent library engine parsing queries with local LLMs, retrieving books from open platforms, and generating full PDFs across 8 languages.</p>
                         <ul class="tech-stack">
                             <li>FastAPI</li>
+                            <li>Whisper STT</li>
+                            <li>Local LLMs</li>
+                            <li>WeasyPrint</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 7: ExpensiU -->
+                <article class="project-card reveal">
+                    <div class="card-content">
+                        <div class="card-top">
+                            <span class="folder-icon">📁</span>
+                            <div class="links">
+                                <a href="https://github.com/Aumnamaha/expensiu" target="_blank" class="icon-link">↗</a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">ExpensiU</h3>
+                        <p class="project-desc">Privacy-first finance tracker using local LLMs (Qwen 0.5B) to parse bank SMS/notifications offline, supporting 50+ currencies and biometric encryption.</p>
+                        <ul class="tech-stack">
+                            <li>React Native</li>
+                            <li>llama.rn</li>
                             <li>SQLite</li>
-                            <li>Vanilla JS</li>
+                            <li>Native C++</li>
                         </ul>
                     </div>
                 </article>
 
-                <!-- Project 2 -->
+                <!-- Project 8: Gov_Scheme_Chatbot -->
                 <article class="project-card reveal">
                     <div class="card-content">
                         <div class="card-top">
                             <span class="folder-icon">📁</span>
                             <div class="links">
-                                <a href="#" class="icon-link">↗</a>
+                                <a href="https://github.com/Aumnamaha/Gov_Scheme_Chatbot" target="_blank" class="icon-link">↗</a>
                             </div>
                         </div>
-                        <h3 class="project-title">Live Weather Tracker</h3>
-                        <p class="project-desc">A globally accessible real-time weather application leveraging Open-Meteo APIs, avoiding payload restrictions dynamically.</p>
-                        <ul class="tech-stack">
-                            <li>Open-Meteo</li>
-                            <li>HTML/CSS</li>
-                            <li>JS</li>
-                        </ul>
-                    </div>
-                </article>
-
-                <!-- Project 3 -->
-                <article class="project-card reveal">
-                    <div class="card-content">
-                        <div class="card-top">
-                            <span class="folder-icon">📁</span>
-                            <div class="links">
-                                <a href="#" class="icon-link">↗</a>
-                            </div>
-                        </div>
-                        <h3 class="project-title">Expense Tracker Pro</h3>
-                        <p class="project-desc">A visually stunning dashboard tracking daily financial expenses, visualizing complex spending datasets utilizing Chart.js.</p>
-                        <ul class="tech-stack">
-                            <li>Chart.js</li>
-                            <li>LocalStorage</li>
-                            <li>JS</li>
-                        </ul>
-                    </div>
-                </article>
-
-                <!-- Project 4 -->
-                <article class="project-card reveal">
-                    <div class="card-content">
-                        <div class="card-top">
-                            <span class="folder-icon">📁</span>
-                            <div class="links">
-                                <a href="#" class="icon-link">↗</a>
-                            </div>
-                        </div>
-                        <h3 class="project-title">Image Utility Suite</h3>
-                        <p class="project-desc">A desktop GUI engineered for batch image operations, generating grayscale maps, edge bounds, and watermarks instantly.</p>
+                        <h3 class="project-title">Gov Scheme Chatbot</h3>
+                        <p class="project-desc">AI conversational assistant utilizing semantic vector search embeddings to help citizens discover welfare schemes matching eligibility criteria.</p>
                         <ul class="tech-stack">
                             <li>Python</li>
-                            <li>OpenCV</li>
-                            <li>Tkinter</li>
-                        </ul>
-                    </div>
-                </article>
-                
-                <!-- Project 6 -->
-                <article class="project-card reveal">
-                    <div class="card-content">
-                        <div class="card-top">
-                            <span class="folder-icon">📁</span>
-                            <div class="links">
-                                <a href="#" class="icon-link">↗</a>
-                            </div>
-                        </div>
-                        <h3 class="project-title">Speech_X_Text</h3>
-                        <p class="project-desc">A multilingual Speech-to-Text application powered by an agile backend seamlessly processing audio transcriptions.</p>
-                        <ul class="tech-stack">
-                            <li>Python</li>
-                            <li>FastAPI</li>
-                            <li>Vercel</li>
+                            <li>Vector Search</li>
+                            <li>NLP</li>
+                            <li>Streamlit</li>
                         </ul>
                     </div>
                 </article>
 
-                <!-- Project 7 -->
+                <!-- Project 9: Tim_The_Time_manager -->
                 <article class="project-card reveal">
                     <div class="card-content">
                         <div class="card-top">
                             <span class="folder-icon">📁</span>
                             <div class="links">
-                                <a href="#" class="icon-link">↗</a>
+                                <a href="https://github.com/Aumnamaha/Tim_The_Time_manager" target="_blank" class="icon-link">↗</a>
                             </div>
                         </div>
                         <h3 class="project-title">Tim The Time Manager</h3>
-                        <p class="project-desc">A lightweight, highly contextual browser extension utilized to inject dynamic time tracking metrics directly into the DOM.</p>
+                        <p class="project-desc">Manifest V3 productivity browser extension tracking media site usage with zero CPU overhead and injecting automated wellness DOM overlays.</p>
                         <ul class="tech-stack">
-                            <li>DOM API</li>
-                            <li>Chrome Ext</li>
-                            <li>JS</li>
+                            <li>JavaScript</li>
+                            <li>Chrome Ext API</li>
+                            <li>Service Workers</li>
                         </ul>
                     </div>
                 </article>
